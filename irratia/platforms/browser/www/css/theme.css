@@ -1,0 +1,208 @@
+/* GLYPHICONS --------------------------------------------------------------------- */
+.icon {
+	margin: -10px 7px 0px -5px;
+	font-size: 130%;
+}
+
+/* MAIN ELEMENTS ------------------------------------------------------------ */
+html {
+    overflow-y: scroll;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0;
+}
+body {
+    height: 100%;
+    margin: 0px auto;
+    padding: 0;
+  	font-family: "Droid Sans";
+    
+  	/*background: rgb(225, 228, 228);
+	background: -moz-linear-gradient(84deg, rgb(225, 228, 228) 30%, rgb(185, 185, 185) 70%);
+	background: -webkit-linear-gradient(84deg, rgb(225, 228, 228) 30%, rgb(185, 185, 185) 70%);
+	background: -o-linear-gradient(84deg, rgb(225, 228, 228) 30%, rgb(185, 185, 185) 70%);
+	background: -ms-linear-gradient(84deg, rgb(225, 228, 228) 30%, rgb(185, 185, 185) 70%);
+	background: linear-gradient(174deg, rgb(225, 228, 228) 30%, rgb(185, 185, 185) 70%);*/
+	
+	background: url('../img/background.png') no-repeat;
+	background-position: center center;
+	background-size: 700%;
+}
+
+
+h1, .h1 {
+font-size: 50px;
+}
+h2 {
+	margin-top: -10px !important;
+	font-size: 30px;
+}
+h4, 
+h5 {
+	text-align: center;
+	line-height: 1.4;
+	color:#dadada;
+}
+@media (min-width: 440px) {
+  body {
+	background-size: 400%;
+  }
+}
+@media (min-width: 768px) {
+  body {
+	background-size: 300%;
+  }
+  h2 {
+	font-size: 30px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+	background-size: 200%;
+  }
+  h2 {
+	font-size: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+	background-size: 150%;
+  }
+  h1, .h1 {
+    font-size: 60px;
+  }
+}
+
+.logo {
+
+    height: 125px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 100%;
+}
+@media (min-width: 768px) {
+  .logo {
+	max-width: 280px;
+	height: 280px;
+  }
+}
+@media (min-width: 992px) {
+  .logo {
+	max-width: 360px;
+	height: 360px;
+	margin-bottom: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .logo {
+	margin: -15px auto;
+	max-width: 450px;
+	height: 450px;
+	background-size: 100%;
+  }
+}
+
+.logo_footer {
+	width:100%;
+	height: 50px;
+	margin: 0;
+	overflow: hidden;
+	background: url('../img/logo_cubica.png') no-repeat center center;
+	background-size: 100%;
+}
+
+
+
+.masthead {
+  	z-index: -1;
+  	background: none;
+  	margin: 0 auto;
+  	text-align: center;
+}
+.masthead .col {
+  	text-align: center;
+  	margin: 0 auto;
+}
+.masthead,
+.masthead-video-section {
+	height: 180px;
+}
+.masthead-video-section {
+	width: 100%;
+	position: relative;
+}
+@media (min-width: 768px) {
+  .masthead,
+  .masthead-video-section,
+  .video-section .pattern-overlay {
+	height: 180px;
+  }
+}
+@media (min-width: 992px) {
+  .masthead,
+  .masthead-video-section,
+  .video-section .pattern-overlay {
+	height: 240px;
+  }
+}
+@media (min-width: 1200px) {
+  .masthead,
+  .masthead-video-section,
+  .video-section .pattern-overlay {
+	height: 280px;
+  }
+}
+.masthead-video-section .header-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  	z-index: 50 !important;
+}
+
+
+
+
+
+.well.audioplayer {
+  	border-radius: 0;
+  	border: 0;
+  	margin:0 auto;
+  	max-width: 600px;
+  	height: 100%;
+	background-color: transparent;
+}
+.well-label {
+	color: #fff;
+	text-shadow: 0 1px 0.5px #4A4A4A;
+}
+.well.news {
+	background-color: #E5E5E5;
+	padding:5px 0;
+  	min-height:200px;
+}
+
+.top50{
+margin-top:50px;
+}
+/* HELP */
+.well.help {
+	height: auto;
+	display: inline-block;
+	border: 1px solid inset #FFF;
+	padding: 15px;
+	width: 100%;
+	max-width: 500px;
+	text-align: center;
+	background-color: transparent;
+}
+.bottom25{
+margin-bottom:25px;
+}
+.font12{
+font-size:12px;
+}
+.logo{
+margin:auto;
+}

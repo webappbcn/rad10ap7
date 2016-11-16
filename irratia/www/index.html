@@ -1,0 +1,89 @@
+<!DOCTYPE html><head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+		
+<title>Anxeta Irraeta</title>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/theme.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<link rel="stylesheet" type="text/css" href="iconmoon/style.css" />
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+		<script type="text/javascript" src="js/bootstrap-rating.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="zen_player/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="zen_player/css/zen.css" />		
+		<script type="text/javascript" src="zen_player/js/jquery.grab.js"></script>
+		<script type="text/javascript" src="zen_player/js/jquery.jplayer.min.js"></script>
+		<script type="text/javascript" src="zen_player/js/jquery.rotate.js"></script>
+		<script type="text/javascript" src="zen_player/js/zen.min.js"></script>		
+</head>
+	
+	<body id="top">
+	
+		<div class="well audioplayer">
+		
+			<header>
+				<div class="col col-xs-12">
+					<div class="logo"></div>
+				</div>
+			</header>
+		
+			<div class="row">
+				<div class="col col-xs-12 hcenter">
+				
+					<div id="zen">
+						<span class="player"></span>
+						<span class="circle"></span>
+						<span class="progress"></span>
+						<span class="buffer"></span>
+						<span class="drag"></span>
+						<div class="button">
+							<span class="icon play icon-irratia-exterior"><span class="icon-irratia-interior"></span></span>
+							<span class="icon pause icon-irratia-exterior"><span class="icon-irratia-interior"></span></span>
+						</div>
+					</div>				
+							
+					<div class="help">
+								
+							<h5 class="top50 font12"><strong>(Egin klik erreproduktorea abiatu edo gelditzeko)</strong></h5>
+							<br/>
+							
+							<h4>
+							14 De Gaulle ertorbidea,<br>
+							64 700 Hendaia<br>
+							+33 559483665 | antxetamedia.eus<br>
+							</h4>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+	</script>			
+</body>
+</html>
